@@ -1,0 +1,22 @@
+@import '~@angular/material/theming';
+@import './ta-colors.scss';
+
+
+@include mat-core();
+
+$ta-app-primary: mat-palette($ta-primary, 500, 800, 200);
+$ta-app-accent:  mat-palette($ta-secondary, 500, 300, 100);
+
+// The warn palette is optional (defaults to red).
+$ta-app-warn:    mat-palette($mat-red);
+
+
+$ta-app-background: mat-palette($ta-primary, 100, 200, 300);
+$ta-app-foreground: mat-palette($ta-secondary,100, 200, 300);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$ta-app-theme: mat-light-theme($ta-app-primary, $ta-app-accent, $ta-app-warn);
+
+
+@include angular-material-theme($ta-app-theme);
+@import "styles.css";

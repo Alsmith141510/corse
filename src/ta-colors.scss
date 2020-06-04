@@ -1,0 +1,71 @@
+/* For use in src/lib/core/theming/_palette.scss
+got these material pallette done from website
+http://mcg.mbitson.com/#!?taprimary=%23d16b2d&tasecondary=%239cc34c&mcgpalette2=%2326a69a&themename=mcgtheme
+
+These are the two colors for our website
+*/
+$ta-primary: (
+    50 : #f9ede6,
+    100 : #f1d3c0,
+    200 : #e8b596,
+    300 : #df976c,
+    400 : #d8814d,
+    500 : #d16b2d,
+    600 : #cc6328,
+    700 : #c65822,
+    800 : #c04e1c,
+    900 : #b53c11,
+    A100 : #ffeae4,
+    A200 : #ffc2b1,
+    A400 : #ff9b7e,
+    A700 : #ff8764,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$ta-secondary: (
+    50 : #f3f8ea,
+    100 : #e1edc9,
+    200 : #cee1a6,
+    300 : #bad582,
+    400 : #abcc67,
+    500 : #9cc34c,
+    600 : #94bd45,
+    700 : #8ab53c,
+    800 : #80ae33,
+    900 : #6ea124,
+    A100 : #f1ffde,
+    A200 : #dbffab,
+    A400 : #c5ff78,
+    A700 : #bbff5e,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
